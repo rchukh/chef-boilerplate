@@ -1,0 +1,9 @@
+{
+  "name": "chamber-teamcity",
+  "repository": "https://github.com/rchukh/chamber-teamcity",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-conventional-changelog": "latest"
+  }
+}
