@@ -1,6 +1,6 @@
 {
-  "name": "chamber-teamcity",
-  "repository": "https://github.com/rchukh/chamber-teamcity",
+  "name": "boilerplate",
+  "repository": "https://github.com/rchukh/chef-boilerplate",
   "version": "0.0.1",
   "devDependencies": {
     "grunt": "latest",

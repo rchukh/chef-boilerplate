@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: chamber-teamcity
+# Cookbook Name:: boilerplate
 # Recipe:: default
 #
 include_recipe 'chef-sugar::default'
