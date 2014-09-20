@@ -9,7 +9,3 @@ version          '0.0.1'
 supports 'centos'
 
 depends 'chef-sugar', '~> 2.2'
-depends 'build-essential', '~> 2.0'
-depends 'java', '~> 1.28'
-depends 'postgresql', '~> 3.4'
-depends 'database', '~> 2.3.0'
