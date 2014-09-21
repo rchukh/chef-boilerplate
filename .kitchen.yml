@@ -7,15 +7,20 @@ driver_config:
     cachier:
       cache:
         scope: ":box"
-        auto_detect: true
+        auto_detect: false
         enable:
-          - chef
+          #- chef
           - yum
+        generic_buckets:
+          - ['chef', '/var/chef/cache']
+          # Defined only for testing
+          - ['wget', '/var/chef/wget']
 
 provisioner:
   name: chef_solo
   solo_rb:
       ssl_verify_mode: verify_peer
+      file_cache_path: '/var/chef/cache/'
 
 platforms:
   - name: centos-6.5
