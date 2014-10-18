@@ -2,4 +2,4 @@ source "https://supermarket.getchef.com"
 
 metadata
 
-cookbook 'chef-sugar'
+cookbook 'chef-sugar', '~> 2.4'
