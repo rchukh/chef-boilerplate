@@ -1,1 +1,1 @@
-default['boilerplate']['version']    = '0.0.1'
+default['boilerplate']['version']    = '0.0.2'
